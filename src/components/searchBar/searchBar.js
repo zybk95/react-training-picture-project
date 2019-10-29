@@ -24,7 +24,7 @@ class SearchBar extends Component {
 
   //Enter'a basıldığı zaman veya butona tıklandığı zaman çalışacak olan metot...
   searchImage() {
-    console.log("search image fonksiyonu: " + this.state.aranan);
+    //console.log("search image fonksiyonu: " + this.state.aranan);
     this.props.onSearchImageXX(this.state.aranan);
   }
 

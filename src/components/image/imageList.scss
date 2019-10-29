@@ -1,0 +1,20 @@
+.image-list-container {
+    padding-top: 10px;
+
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    grid-auto-rows: 5px;
+    justify-items: center;
+    
+    img {
+      width: 300px;
+      max-width: 100%;      
+      /* //bütün imgler için span farklı olacağı için burada devreye react girecek ve react ile resimin boyunu hesaplayıp
+      //ne kadar span'e ihtiyacı var onu bulacağız ve ona spanini vereceğiz ... */
+      // margin-top: 18px;
+      border-radius: 8px;
+    }
+  
+  }
+
